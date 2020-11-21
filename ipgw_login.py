@@ -21,7 +21,7 @@ driver = webdriver.Chrome(chrome_options=chromeOptions)
 driver.get('http://ipgw.neu.edu.cn')
 
 # 关键：点击“学生电子邮件按钮”，帮助解决登录失败的神秘错误
-button_student_mail_system=driver.find_element_by_css_selector('a.btn:nth-child(1)')
+button_student_mail_system=driver.find_element_by_css_selector('a.nav-item:nth-child(3)')
 button_student_mail_system.click()
 
 # 填入学号和密码
