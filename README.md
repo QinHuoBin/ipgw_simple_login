@@ -1,4 +1,4 @@
-NEU ipgw 东北大学 IP控制网关 模拟浏览器登录 解决portal not response问题
+NEU ipgw 东北大学 IP控制网关 模拟浏览器登录 解决认证失败(Login Excetion)问题
 
 一、介绍
 
